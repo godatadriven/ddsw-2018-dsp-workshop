@@ -1,0 +1,5 @@
+*.html
+.ipynb_checkpoints/
+__pycache__/
+conda-forge::
+.DS_Store
