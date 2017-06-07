@@ -9,7 +9,7 @@
 body {
   background: #fff;
   background-color: #fff;
-  font-size: 38px!;
+  font-size: 30px!;
   font-family: "Hack"
   font-weight: normal;
   background-image: url('images/homeBanner.png'), url('images/logo.png');
@@ -19,9 +19,9 @@ body {
   color: #222; }
 
 .rendered_html p {
-  font-size: 120%;
+  font-size: 100%;
 }
 
 .reveal pre {
-  font-size: 100%;
+  font-size: 80%;
 }

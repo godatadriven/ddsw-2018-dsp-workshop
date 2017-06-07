@@ -6,10 +6,11 @@ from scipy import ndimage
 from sklearn import *
 from matplotlib import pylab
 
-from IPython.core.display import display, HTML
-display(HTML("<style>.container {width:80% !important; }</style>"))
 
-
+def small_canvas_size():
+    from IPython.core.display import display, HTML
+    display(HTML('<style>.container {width:80% !important;}</style>'))
+small_canvas_size()
 
 def xlabel(l, fontsize='x-large'):
     pylab.xlabel(l, fontsize=fontsize)
@@ -29,7 +30,7 @@ def title(l, fontsize='x-large'):
 
 def figsize(c=16, r=3):
     pylab.rcParams['figure.figsize'] = c,r
-
+figsize()
 
 def no_xticks():
     pylab.xticks([])
