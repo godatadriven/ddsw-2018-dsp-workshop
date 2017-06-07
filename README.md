@@ -48,7 +48,7 @@ $ jupyter nbconvert intro.ipynb --to slides --post serve
 
 ## Hackathon
 
-In the hackathon we will apply Digital Signal Processing methods to audio sigals. Provided is a handful of audio samples and associated metadata of the speakers. Based on that, we'll try to recognize the speaker's identity/gender/age/etc using machine learning. See `hackathon/hackathon.ipynb` for the assignment; or a couple of my implementations in `hackathon/hackathon-answers.ipynb`.
+In the hackathon we will apply Digital Signal Processing methods to audio sigals. Provided is a handful of speech samples and associated metadata of the speakers. Based on that, we'll try to recognize the speaker's identity/gender/age/etc using machine learning. See `hackathon/hackathon.ipynb` for the assignment; or a couple of my implementations in `hackathon/hackathon-answers.ipynb`.
 
 ## Lab notebooks
 
