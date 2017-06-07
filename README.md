@@ -34,12 +34,24 @@ $ source activate dsp
 
 If that doesn't work, inspect the environment.yml and install the packages you need one by one.
 
+Then, start a Jupyter notebook server
+```sh
+$ jupyter-notebook
+```
+and pick the notebook you want to run.
+
+Or view a notebook as a presentation (if applicable; this is indicated by the presence of 'Slide Type' dropdowns in the top right of the notebook cells)
+```sh
+$ # possible presentations are intro.ipynb, feature-engineering.ipynb and feature-learning.ipynb
+$ jupyter nbconvert intro.ipynb --to slides --post serve
+```
+
 ## Hackathon
 
-In the hackathon we will apply Digital Signal Processing methods to audio singals. Provided is a handful of audio samples and associated metadata of the speakers. Based on that, we'll try to recognize the speaker's identity/gender/age/etc using machine learning.
+In the hackathon we will apply Digital Signal Processing methods to audio singals. Provided is a handful of audio samples and associated metadata of the speakers. Based on that, we'll try to recognize the speaker's identity/gender/age/etc using machine learning. See `hackathon/hackathon.ipynb` for the assignment; or a couple of my implementations in `hackathon/hackathon-answers.ipynb`.
 
 ## Lab notebooks
 
-In `fourier-lab.ipynb` we will look at how fourier analysis can help us to find periodicity in a timeseries, and we will use FFT to identify outliers in the sunspots dataset. As a bonus exercise (more of a thought experiment), we look at how we can use FFT for extrapolation.
+In `fourier-lab.ipynb` we will look at how fourier analysis can help us to find periodicity in a timeseries, and we will use FFT to identify outliers in the sunspots dataset. As a bonus exercise (more of a thought experiment), we look at how we can use FFT for extrapolation. See `fourier-lab-answers.ipynb` for possible solutions.
 
-In `convnet-lab.ipynb` we implement an end-to-end transfer learning pipeline using Keras. We will train a CNN on the first 5 digits of MNIST, and use the feature learnt at this step to classify the last 5. A student should be able to solve this exercise by following the lecture material in `convnet.ipynb`.
+In `convnet-lab.ipynb` we implement an end-to-end transfer learning pipeline using Keras. We will train a CNN on the first 5 digits of MNIST, and use the features learnt at this step to classify the last 5. A student should be able to solve this exercise by following the lecture material in `convnet.ipynb`; solutions are in `convnet-lab-answers.ipynb`
