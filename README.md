@@ -7,15 +7,15 @@ Dutch Data Science Week Workshop
 - Convolution
 - Fourier analysis
 
-### Feature engineering (11:00 - 12:30)
+### Feature engineering (11:00 - 13:00)
 - 1D signals: filter banks, pooling
 - 2D signals: bag-of-words
 
-### Feature learning (13:30 - 14:30)
+### Feature learning (14:00 - 15:15)
 - PCA / LDA
 - Convolutional neural network
     
-### Speech processing hackathon (15:00 - ?)
+### Speech processing hackathon (15:30 - ?)
 - Speaker / gender / age / nationality recognition...
 - ...based on Fourier / bag-of-words / convnet
 
