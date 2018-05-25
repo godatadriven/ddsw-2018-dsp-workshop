@@ -8,6 +8,10 @@ people['Nelli'] = {'nationality': 'Russian', 'gender': 'female', 'age': 35, 'moo
 people['Andrew'] = {'nationality': 'Australian', 'gender': 'male', 'age': 40, 'mood': 'neutral'}
 people['Ron'] = {'nationality': 'Dutch', 'gender': 'male', 'age': 32, 'mood': 'neutral'}
 people['Marcel'] = {'nationality': 'Dutch', 'gender': 'male', 'age': 33, 'mood': 'neutral'}
+people['Stephen'] = {'nationality': 'English', 'gender': 'male', 'age': 34, 'mood': 'neutral'}
+people['Tudor'] = {'nationality': 'Romanian', 'gender': 'male', 'age': 37, 'mood': 'neutral'}
+people['Kaustav'] = {'nationality': 'Indian', 'gender': 'male', 'age': 30, 'mood': 'neutral'}
+people['Leo'] = {'nationality': 'Dutch', 'gender': 'male', 'age': 59, 'mood': 'neutral'}
 
 # maintain dict of sentences that are stored
 sentences = {}
